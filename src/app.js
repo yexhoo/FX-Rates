@@ -5,14 +5,24 @@ import {getSymbols, getHistorical} from './fixer/FixerApi';
 class App extends Component{
 
     getFxRatesSymbols(){
-        getSymbols((response)=>console.log(response), (error)=>console.log(error));
+        let symbolsRequest = {
+            onSuccess: (response)=>console.log(response),
+            onError: (error)=>console.log(error)
+        };
+        getSymbols(symbolsRequest);
     }
 
     getFxRatesHistorical() {
-        let date = new Date();
-        let base = 'EUR';
-        let symbols = ['USD', 'MXN'];
-        getHistorical(date, base, symbols, (response)=>console.log(response), (error)=>console.log(error));
+
+        let historicalRequest ={
+            date : new Date(),
+            base : 'EUR',
+            symbols : ['USD', 'MXN'],
+            onSuccess: (response)=>console.log(response),
+            onError: (error)=>console.log(error)
+        };
+        
+        getHistorical(historicalRequest);
     }
 
     render(){
