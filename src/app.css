@@ -1,0 +1,37 @@
+.separator{
+    margin: auto;
+    width:80%;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.searchBox{
+    margin: auto;
+    width:80%;
+    border-radius: 3px;
+    overflow: auto;
+}
+
+.content {
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align:center;
+}
+
+.searchButtonBox{
+    margin: auto;
+    width:80%;
+    border-radius: 3px;
+    overflow: auto;
+    align-content: center;
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align:center;
+}
+
+.chartBox{
+    margin: auto;
+    width:80%;
+    border-radius: 3px;
+    overflow: visible;
+}
