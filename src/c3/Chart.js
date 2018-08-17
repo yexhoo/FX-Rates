@@ -9,10 +9,15 @@ export function InitChart() {
 }
 
 export function LoadDataChart(data) {
-    InitChart();
+    ResetChart();
     singleton.chart.load({
         columns: data
     });
+}
+
+export function ResetChart() {
+    InitChart();
+    singleton.chart.load({unload: true});
 }
 
 function CreateInstance() {
