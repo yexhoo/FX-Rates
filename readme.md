@@ -79,7 +79,7 @@ $ npm run-script build
 
 <p align="center"><img src="doc/images/screenShoot9.png" /></p> 
 
-- If you have a license (API KEY) of Fixer.io available, then you can substitute that value in the source code in the file FixerEndpointBuilder.js
+- If you have a Fixer.io license (API KEY) available, then you can substitute that value in the source code in the FixerEndpointBuilder.js file and generate the packaging process again.
 
 <p align="center"><img src="doc/images/screenShoot10.png" /></p>  
 
