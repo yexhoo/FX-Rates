@@ -17,18 +17,12 @@ Interface that displays a summary of the FX rates of the Mexican peso against ot
 
 ## To install dependencies
 
-```
  npm install
-```
 
 ####  To run dev server
 
-```
  npm start
-```
 
 ### Build code
 
-```
-npm run build
-```
+npm run-script build
