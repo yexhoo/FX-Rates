@@ -35,9 +35,10 @@ $ npm run-script build
 <p align="center"><img src="doc/images/screenShoot2.png" /></p>
 
 - The 'dist' folder must contain the following files
--- FX_Rates_Bundle.js
--- index.css
--- index.html
+
+- [x] FX_Rates_Bundle.js
+- [x] index.css
+- [x] index.html
 
 <p align="center"><img src="doc/images/screenShoot3.png" /></p>
 
