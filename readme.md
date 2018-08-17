@@ -23,6 +23,7 @@ Interface that displays a summary of the FX rates of currency against other curr
 ```sh
 $ npm install
 ```
+
 <p align="center"><img src="doc/images/screenShoot1.png" /></p>
 
 - To generate bundle file, execute next command
@@ -43,3 +44,21 @@ $ npm run-script build
 - You can open the index.html file to get the next screen
 
 <p align="center"><img src="doc/images/screenShoot4.png" /></p>
+
+#### How to use
+
+- You can search and select a currency
+
+<p align="center"><img src="doc/images/screenShoot5.png" /></p> 
+
+- You can search and select currencies to compare
+
+<p align="center"><img src="doc/images/screenShoot6.png" /></p> 
+
+- You can select a date
+
+<p align="center"><img src="doc/images/screenShoot7.png" /></p> 
+
+- You can click on "Show Historical"
+
+<p align="center"><img src="doc/images/screenShoot8.png" /></p>
