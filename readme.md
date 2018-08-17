@@ -61,4 +61,24 @@ $ npm run-script build
 
 - You can click on "Show Historical"
 
-<p align="center"><img src="doc/images/screenShoot8.png" /></p>
+<p align="center"><img src="doc/images/screenShoot8.png" /></p> 
+
+#### Used Tools
+- React -> 6.3.2
+- Webpack -> 4.7.0 
+- Axios -> 0.18.0
+- kenshooui/react-multi-select -> 1.0.57 
+- C3 -> 0.6.7
+- React-datepicker -> 1.6.0
+- Fixer.io 
+
+#### Terms of use
+- Because we have a free license of Fixer.io it is only possible to compare the currency "EUR" against other currencies.
+
+<p align="center"><img src="doc/images/screenShoot8.png" /></p> 
+
+<p align="center"><img src="doc/images/screenShoot9.png" /></p> 
+
+- If you have a license (API KEY) of Fixer.io available, then you can substitute that value in the source code in the file FixerEndpointBuilder.js
+
+<p align="center"><img src="doc/images/screenShoot10.png" /></p> 
