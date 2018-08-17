@@ -1,5 +1,5 @@
 # FX Rates
-Interface that displays a summary of the FX rates of the Mexican peso against other currencies.
+Interface that displays a summary of the FX rates of currency against other currencies.
 ## Technical requirements
 - Use fixer.io as your API
 - You may do vanilla js, or any framework of your choice
