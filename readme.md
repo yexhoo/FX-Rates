@@ -15,7 +15,7 @@ Interface that displays a summary of the FX rates of the Mexican peso against ot
 - Plotting Framework: c3js.org
 - Build process: https://css-tricks.com/gulp-for-beginners/
 
-## To install dependencies
+#### To install dependencies
 
  npm install
 
@@ -23,6 +23,6 @@ Interface that displays a summary of the FX rates of the Mexican peso against ot
 
  npm start
 
-### Build code
+#### Build code
 
 npm run-script build
