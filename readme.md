@@ -48,19 +48,19 @@ $ npm run-script build
 
 #### How to use
 
-- You can search and select a currency
+- Search and select a currency
 
 <p align="center"><img src="doc/images/screenShoot5.png" /></p> 
 
-- You can search and select currencies to compare
+- Search and select currencies to compare
 
 <p align="center"><img src="doc/images/screenShoot6.png" /></p> 
 
-- You can select a date
+- Select a date
 
 <p align="center"><img src="doc/images/screenShoot7.png" /></p> 
 
-- You can click on "Show Historical"
+- Click on "Show Historical"
 
 <p align="center"><img src="doc/images/screenShoot8.png" /></p> 
 
