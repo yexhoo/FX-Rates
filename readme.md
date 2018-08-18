@@ -48,19 +48,19 @@ $ npm run-script build
 
 #### How to use
 
-- You can search and select a currency
+Search and select a currency
 
 <p align="center"><img src="doc/images/screenShoot5.png" /></p> 
 
-- You can search and select currencies to compare
+Search and select currencies to compare
 
 <p align="center"><img src="doc/images/screenShoot6.png" /></p> 
 
-- You can select a date
+Select a date
 
 <p align="center"><img src="doc/images/screenShoot7.png" /></p> 
 
-- You can click on "Show Historical"
+Click on "Show Historical"
 
 <p align="center"><img src="doc/images/screenShoot8.png" /></p> 
 
@@ -74,11 +74,11 @@ $ npm run-script build
 - Fixer.io 
 
 #### Terms of use
-- Because we have a free license of Fixer.io it is only possible to compare the currency "EUR" against other currencies.
+Because we have a free license of Fixer.io it is only possible to compare the currency "EUR" against other currencies.
 
 <p align="center"><img src="doc/images/screenShoot11.png" /></p>  
 
-- If you have a Fixer.io license (API KEY) available, then you can substitute that value in the source code in the FixerEndpointBuilder.js file and generate the packaging process again.
+If you have a Fixer.io license (API KEY) available, then you can substitute that value in the source code in the FixerEndpointBuilder.js file and generate the packaging process again.
 
 <p align="center"><img src="doc/images/screenShoot10.png" /></p>  
 
