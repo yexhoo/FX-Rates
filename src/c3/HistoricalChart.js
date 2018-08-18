@@ -1,14 +1,18 @@
-import {InitChart, LoadDataChart} from './Chart.js';
+import {InitChart, LoadDataChart, ResetChart} from './Chart.js';
 
 export function BuildChart(data) {
     InitChart();
     LoadDataChart(FixerModelToC3Model(data.rates));
 }
 
+export function ResetHistoricalChart(){
+    ResetChart();
+}
+
 function FixerModelToC3Model(jsonObject) {
 
     let dataColumns = [];
-
+    
     for (var prop in jsonObject) {
         let row = [];
         row.push(prop);
@@ -18,3 +22,4 @@ function FixerModelToC3Model(jsonObject) {
 
     return dataColumns;
 }
+

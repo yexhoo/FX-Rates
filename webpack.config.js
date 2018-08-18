@@ -26,9 +26,9 @@ module.exports={
 
     output: {
       path: path.resolve(__dirname, 'dist'),
-      filename: 'bundle.js',
-      chunkFilename:'[id][hash].js',
-      publicPath:'/'
+      filename: 'Fx_Rates_Bundle.js',
+      chunkFilename:'[id].js',
+      publicPath:'./'
     },
     module: {
         rules: [
@@ -76,14 +76,14 @@ module.exports={
         ]
       },
     plugins: [new HtmlWebpackPlugin({
-      title:"React scratch",
+      title:"Fx Rates",
         template:__dirname+'/public/index.html',
         inject:'body',
         filename:'index.html'
     }),
     new MiniCssExtractPlugin({
-      filename: "[name]-[hash].css",
-      chunkFilename: "[id][hash].css"
+      filename: "[name].css",
+      chunkFilename: "[id].css"
     }),
     new UglifyJsPlugin({ sourceMap: true }),
 
